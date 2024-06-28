@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <!-- Include Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -23,6 +24,100 @@
             background: url('images/laptop.jpg') center/cover no-repeat;
             opacity: 0.5; /* Adjust opacity here */
             z-index: -1; /* Ensures the background is behind any content */
+        }
+        .profile
+        {
+            height: 400px;
+            width: 300px;
+            margin-top: 40px;
+            margin-right: 150px;
+            align-items: right;
+            border: 1px solid black;
+            float: right;
+            border-radius: 10px;
+        }
+        .desc
+        {
+            height: 400px;
+            width:60%;
+            border: 2px solid black;
+            float: left;
+            margin-top: 40px;
+            margin-left: 150px;
+            background: #848482;
+            padding-left: 8px;
+            padding-right: 8px;
+            border-radius: 12px;
+        }
+        .header1
+        {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+            font-weight: bolder;
+            font-size: 60px;
+        }
+        .header2
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-weight: bold;
+            font-size: 40px;
+        }
+        .content
+        {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: white;
+            font-style: italic;
+            font-size: 18px;
+        }
+        .linked
+        {
+            position: absolute; 
+            right: 190px; 
+            top: 400px;
+            transform: translate(-50%, -50%); 
+            background-color: rgba(125, 125, 125, 0.782); 
+            color: white; 
+            padding: 10px 20px; 
+            text-decoration: none;
+        }
+        .btn {
+            /* background-color: #04AA6D; Green */
+            color: white;
+            /* padding: 16px 32px; */
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            /* transition-duration: 0.4s; */
+            cursor: pointer;
+            height: 40px;
+            width: 100px;
+            border: 2px solid #555555;
+            border-radius: 8px;
+        }
+
+        .btn1 {
+            background-color: rgba(255, 255, 255, 0.348);
+            color: black;
+            /* border: 3px solid #555555; */
+            font-size: 18px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        .btn1:hover {
+            background-color: #555555;
+            color: white;
+        }
+        .mobno
+        {
+            font-family: Georgia, 'Times New Roman', Times, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: white;
+            font-style: italic;
+            font-size: 14px;
+            padding-top: 0;
+            margin-left: 10px;
         }
     </style>
 </head>
@@ -62,6 +157,26 @@
                 </form>
             </div>
         </nav>
+        <div class="desc">
+            <h1 class="header1">Hii, I'm Akash Dey</h1>
+            <h2 class="header2">MERN Developer</h2>
+            <p class="content">Being a learner, I have a great passion to explore new skills , increase my domain of knowledge and make more experiences .From a student having basic Knowledge about coding to being a CS undergrad with a CGPA of 8.06 , I always get curious when the things come upon Innovation, Experiment and Exploration. Mostly I got my eyes on the developmental zone and domain like cloud computing is also comes under my area of interest. Besides tech travelling, listening music and paintings are my escape.</p>
+            
+            
+
+        <button type="button" onclick="window.location.href='https://www.linkedin.com/in/akash-dey-40445b260/'" class="btn btn1">LinkedIn</button>
+        <button type="button" onclick="window.location.href='https://github.com/akashdey23'" class="btn btn1">GitHub</button>
+        <button type="button" onclick="window.location.href='https://leetcode.com/problem-list/rtqvlx71/'" class="btn btn1">LeetCode</button>
+        <button type="button" onclick="window.location.href='https://pathfinder.w3schools.com/profile'" class="btn btn1" style="width: 135px;">W3Schools</button>
+        <br>
+        <p class="mobno">
+            Contact Us:-<br>
+            +91 9142339509<br>
+            akashdey9128@gmail.com<br>
+        </p>
+        </div>
+
+        <div><img src="images/akash.jpeg" class="profile"><a href="contact_us.html" class="linked">Contact Us</a></div>
     </div>
 
     <!-- Include Bootstrap JS and dependencies -->

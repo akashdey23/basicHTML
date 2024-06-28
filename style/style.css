@@ -48,3 +48,44 @@ tr {
     opacity: 0.5; 
     z-index: -1; 
 }
+
+#rcorners1 {
+    border-radius: 10px;
+    background: #939185;
+    padding: 20px;
+    width: 100;
+    height: 1pt;
+    border: 0.5px;
+  }
+
+  .btn {
+    /* background-color: #04AA6D; Green */
+    color: white;
+    /* padding: 16px 32px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    /* transition-duration: 0.4s; */
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    border: 2px solid #555555;
+    border-radius: 8px;
+  }
+
+  .btn1 {
+    background-color: rgba(255, 255, 255, 0.348);
+    color: black;
+    /* border: 3px solid #555555; */
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .btn1:hover {
+    background-color: #555555;
+    color: white;
+  }
+
+  
