@@ -5,124 +5,10 @@
     <title>Home Page</title>
     <!-- Include Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link href="style/style.css" rel="stylesheet">
-    <style>
-        .background {
-            position: relative;
-            width: 100%; /* Adjust width as needed */
-            height: 100vh; /* Adjust height as needed */
-            background: none;
-        }
-
-        .background::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: url('images/laptop.jpg') center/cover no-repeat;
-            opacity: 0.5; /* Adjust opacity here */
-            z-index: -1; /* Ensures the background is behind any content */
-        }
-        .profile
-        {
-            height: 400px;
-            width: 300px;
-            margin-top: 40px;
-            margin-right: 150px;
-            align-items: right;
-            border: 1px solid black;
-            float: right;
-            border-radius: 10px;
-        }
-        .desc
-        {
-            height: 400px;
-            width:60%;
-            border: 2px solid black;
-            float: left;
-            margin-top: 40px;
-            margin-left: 150px;
-            background: #848482;
-            padding-left: 8px;
-            padding-right: 8px;
-            border-radius: 12px;
-        }
-        .header1
-        {
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            color: white;
-            font-weight: bolder;
-            font-size: 60px;
-        }
-        .header2
-        {
-            font-family: Arial, Helvetica, sans-serif;
-            color: white;
-            font-weight: bold;
-            font-size: 40px;
-        }
-        .content
-        {
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            color: white;
-            font-style: italic;
-            font-size: 18px;
-        }
-        .linked
-        {
-            position: absolute; 
-            right: 190px; 
-            top: 400px;
-            transform: translate(-50%, -50%); 
-            background-color: rgba(125, 125, 125, 0.782); 
-            color: white; 
-            padding: 10px 20px; 
-            text-decoration: none;
-        }
-        .btn {
-            /* background-color: #04AA6D; Green */
-            color: white;
-            /* padding: 16px 32px; */
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            /* transition-duration: 0.4s; */
-            cursor: pointer;
-            height: 40px;
-            width: 100px;
-            border: 2px solid #555555;
-            border-radius: 8px;
-        }
-
-        .btn1 {
-            background-color: rgba(255, 255, 255, 0.348);
-            color: black;
-            /* border: 3px solid #555555; */
-            font-size: 18px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
-        
-        .btn1:hover {
-            background-color: #555555;
-            color: white;
-        }
-        .mobno
-        {
-            font-family: Georgia, 'Times New Roman', Times, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            color: white;
-            font-style: italic;
-            font-size: 14px;
-            padding-top: 0;
-            margin-left: 10px;
-        }
-    </style>
+    <link href="style2.css" rel="stylesheet">
 </head>
 <body>
-    <div class="background">
+    <div  class="background">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">Personal FeedBack</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -177,6 +63,14 @@
         </div>
 
         <div><img src="images/akash.jpeg" class="profile"><a href="contact_us.html" class="linked">Contact Us</a></div>
+        <div class="container">
+            <p class="content" style="font-weight: bold; color: white;">The world wide web is a crowded place and in order to stand out , you need a proper website...
+            That's where I, Akash of Silicon University, Bhubaneshwar come in. As an experienced WebDev as well as UI/UX designer , I'm your one stop shop for you awesome, scalable and user friendly home on the web.</p>
+            <div class="container1"><div class="imgcon"><p class="blocktext">Design and Development of E-commerce Website</p><button type="button" class="btn2 btn1">Design & Develop</button></div></div>
+            <div class="container1"><div class="imgcon2"><p class="blocktext">Design and Development of Clothing Website</p><button type="button" class="btn2 btn1">Design & Develop</button></div></div>
+            <div class="container1"><div class="imgcon3"><p class="blocktext">Design and Development of School ERP Website</p><button type="button" class="btn2 btn1">Design & Develop</button></div></div>
+            <div class="container1"><div class="imgcon4"><p class="blocktext">Design and Development of Professional Website</p><button type="button" class="btn2 btn1">Design & Develop</button></div></div>
+        </div>
     </div>
 
     <!-- Include Bootstrap JS and dependencies -->
