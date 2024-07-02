@@ -32,7 +32,7 @@
 .desc
 {
     height: 400px;
-    width:60%;
+    width:900px;
     border: 2px solid black;
     float: left;
     margin-top: 40px;
@@ -83,7 +83,7 @@
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    transition-duration: 0.4s;
+    /* transition-duration: 0.4s; */
     cursor: pointer;
     height: 40px;
     width: 100px;
@@ -203,4 +203,52 @@
     color: rgb(0, 0, 0);
     font-size: 20px;
     font-weight: bold;
+}
+
+.footpart
+{
+    height: 300px;
+    width: 80%;
+    border: 1 px solid red;
+    background-color: #848482;
+    margin-top: 20px;
+    margin-left: 150px;
+    border-radius: 16px;
+    padding-left: 28px;
+    padding-top: 28px;
+}
+.igimg
+{
+    background-image: url(images/ig.jpg);
+    height: 47px;
+    width: 47px;
+    background-size: cover;
+    margin-top: 78px;
+    
+    /* border: 1px solid white; */
+    float: left;
+    margin-right: 15px;
+}
+.gimg
+{
+    background-image: url(images/g.jpg);
+    height: 40px;
+    width: 40px;
+    background-size:contain;
+    margin-top: 80px;
+    float: left;
+    /* border: 1px solid white; */
+    margin-right: 18px;
+}
+.fbimg
+{
+    background-image: url(images/fb.jpg);
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    margin-top: 80px;
+    float: left;
+    /* border: 1px solid white; */
+    margin-right: 10px;
+    border-radius: 25px;
 }

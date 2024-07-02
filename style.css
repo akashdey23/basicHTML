@@ -49,7 +49,7 @@ tr {
     z-index: -1; 
 }
 
-#rcorners1 {
+.rcorners1 {
     border-radius: 10px;
     background: #939185;
     padding: 20px;
@@ -84,6 +84,21 @@ tr {
   }
   
   .btn1:hover {
+    background-color: #555555;
+    color: white;
+  }
+  
+  .btn2 {
+    background-color: rgba(255, 255, 255, 0.348);
+    color: black;
+    /* border: 3px solid #555555; */
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 25px;
+    width: 110px;
+  }
+  
+  .btn2:hover {
     background-color: #555555;
     color: white;
   }
